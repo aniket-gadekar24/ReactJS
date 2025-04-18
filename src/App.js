@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Props from './concept/Props';
+import UseStae from './Hooks/useState/UseStae';
 
 function App() {
+
+  let person = {
+    name : "aniket",
+    age : 25,
+    city : "pune"
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <Props  person={person} person2="jivan" person3="pankaj"/> */}
+
+        <UseStae/>
     </div>
   );
 }
 
 export default App;
+ 
