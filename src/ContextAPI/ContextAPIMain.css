@@ -1,0 +1,16 @@
+
+.parentDiv{
+    border: 5px,solid,black;
+    height: 95vh;
+    transition: all 0.3s;
+}
+
+.light{
+    background-color: white;
+    color :black
+}
+
+.dark{
+    background-color: #121212;
+    color: white;
+}

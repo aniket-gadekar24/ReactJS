@@ -6,6 +6,8 @@ import UseRef from './Hooks/useState/UseRef/UseRef';
 import UseStae from './Hooks/useState/UseStae';
 import BasicUseEffect from "./Hooks/useState/UseEffect/BasicUseEffect"
 import RouterMain from './React-Router-Dom/RouterMain'
+import ContextAPIMain from './ContextAPI/ContextAPIMain';
+import CounterProvider from './ContextAPI/CounterApp/CounterProvide';
 
 
 
@@ -25,7 +27,13 @@ function App() {
         <Counterr/> */}
         {/* <SlidingAnimation/>
         <BasicUseEffect/> */}
-        <RouterMain/>
+
+
+        {/* <RouterMain/> */}
+
+        {/* <ContextAPIMain/> */}
+
+        <CounterProvider/>
     </div>
   );
 }
